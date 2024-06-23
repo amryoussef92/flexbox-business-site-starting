@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 40px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+li {
+  display: inline;
+  padding: 15px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://i.pinimg.com/736x/94/7f/8a/947f8a43c1dcfc3b2b6ea12f1f329cc1.jpg);
+}
+main h2 {
+  color: red;
+  padding-top: 30%;
+  height: 300px;
+  font-size: 3.5rem;
+  font-family: "Playwrite PL", cursive;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.products {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.listCard {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+}
+.listCard img {
+  width: 100%;
+  height: 80%;
+}
+.listCard h4 {
+  margin: 10px 0;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
